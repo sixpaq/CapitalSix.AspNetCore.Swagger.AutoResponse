@@ -6,7 +6,7 @@
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
-        <Title>AspNetCore middleware for generic error handling</Title>
+        <Title>Swagger filter for automatic response type documentation</Title>
         <RepositoryUrl>https://github.com/sixpaq/capitalsix.aspnetcore.swagger.autoresponse</RepositoryUrl>
         <RepositoryType>git</RepositoryType> 
         <Authors>Mike Wijnen</Authors>
@@ -17,7 +17,7 @@
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <License>none</License>
         <Description>This module automatically checks if response types like 400, 401, 403, 417, 429, 500 apply to methods and automatically adds it to the Swagger response documentation.</Description>
-        <PackageTags>dotnet-new;swagger;xml;attributes</PackageTags>
+        <PackageTags>aspnetcore;swagger;response;</PackageTags>
         <IncludeContentInPack>true</IncludeContentInPack>
         <IncludeBuildOutput>true</IncludeBuildOutput>
         <ContentTargetFolders>content</ContentTargetFolders>
